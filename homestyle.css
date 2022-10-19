@@ -1,0 +1,99 @@
+/* Custom CSS goes here */
+.bg-chocolate {
+    background-color: #362706;
+}
+
+.bg-green {
+    background-color: #464e2e;
+}
+
+.bg-pistache {
+    background-color: #acb992;
+}
+
+.bg-cream {
+    background-color: #e9e5d6;
+}
+
+.bg-fakewhite {
+    background-color: #eaeaea;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+/* div.contenedor {
+    width: 33.33%;
+}
+  
+btn {
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. 
+    margin-left: 50%;
+    transform: translateX(-50%);
+} */
+
+
+#title1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+
+/* producto muestra */
+
+/* .containerP {
+    background: #E9E5D6;
+} */
+
+.containerProduct1 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    height: auto;
+    background: #E9E5D6;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+
+    text-align: center;
+    color: #362706;
+}
+
+/* Boton añadir al carrito */
+.btnAdd {
+
+    border: none;
+    background: #464E2E;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    color: #E9E5D6;
+}
+
+#title2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* .container-Blog {
+   
+    border-radius: 10px;
+    background: #E9E5D6;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+
+} */

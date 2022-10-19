@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/homestyle.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="bg-chocolate">
+        <nav class="navbar navbar-dark navbar-expand-lg container-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="w-75" src="https://i.ibb.co/vQ4Dv98/GUIEDANI-LOGO-1-1.png" alt="Guiedani">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Café tipo 1</a></li>
+                                <li><a class="dropdown-item" href="#">Café tipo 2</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Café selecto</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex align-items-center" role="search">
+                        <!-- <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" /> -->
+                        <button id="btn-sesion" class="btn btn-outline-light h-25">
+                            Cerrar Sesión
+                        </button>
+                        <p class="text-light ms-3 mt-3">Nombre de usuario</p>
+                    </form>
+                </div>
+                <div class="ms-3 p-2 d-flex">
+                    <a href="#">
+                        <img class="w-75" src="https://i.ibb.co/8NSXM2J/shopping-cart-icon.png" alt="carrito">
+                    </a>
+                    <button
+                        class="btn btn-danger btn-sm mt-1 rounded-pill position-relative top-100 start-0 translate-middle w-50">
+                        1
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div id="img_container">
+            <img src="assets/cofe fruit 1.png" alt="Coffee" style="width: 100%">
+            <button type="button" class="btn btn-success ms-3 mt-3">Ver productos</button>
+        </div>
+        <!-- <div class="btnContainer">
+            <button class="btn btn-success mt-2">Ver producto</button>
+            </div> -->
+        </div>
+    </section>
+    <!-- Titulo 1 -->
+    <div class="title1 py-5">
+        <div align="center">
+            <span id="title1">Oferta especial</span>
+        </div>
+    </div>
+
+    <!-- Producto muestra -->
+    <!-- <section id="product">
+        <div class="container-fluid" id="product-container">
+            <div class="row" id="banner-row">
+                <div class="col-md-6" id="about-col">
+                    <img class="img-responsive rounded mx-auto d-block" src="assets/foto_producto_! 1.png" alt=""
+                        align="center" />
+
+                </div>
+
+                 <p id="tipo">Café Tipo 2
+                    <br>
+                    <br>
+                    Nuestra selección
+                    especial de café ideal
+                    <br>
+                    $700.00</p> 
+                <div class="row justify-content-center">
+                    <button class="btnAdd btn-success mt-2 w-50">Añadir al carrito</button>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- Producto muestra -->
+    <!-- <div class="containerP text-center">
+        <div class="row justify-content-md-center">
+            <div class="col-md-4">
+                <img style='width:250px;' src="assets/foto_producto_! 1.png" alt=''>
+                <h5>Cafe tipo 2</h5>
+                <p>Nuestra seleccion especial de cafe ideal</p>
+                <p>$700.00</p>
+                <button type="button" class="btn btn-outline-success">Success</button>
+            </div>
+
+
+            <div class="col-lg-4">
+                <img style='width:250px;' src="assets/foto_producto_! 1.png" alt=''>
+                <h5>Cafe tipo 2</h5>
+                <p>Nuestra seleccion especial de cafe ideal</p>
+                <p>$700.00</p>
+                <button type="button" class="btn btn-outline-success">Success</button>
+            </div>
+
+            <div class="col-lg-4">
+                <img style='width:250px;' src="assets/foto_producto_! 1.png" alt=''>
+                <h5>Cafe tipo 2</h5>
+                <p>Nuestra seleccion especial de cafe ideal</p>
+                <p>$700.00</p>
+                <button type="button" class="btn btn-outline-success">Success</button>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- Producto muestra -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="row-item">
+                    <div class="card-img pb-3 align-center">
+                        <img style='width:250px;' src="assets/foto_producto_! 1.png" alt="Muestra cafe">
+                    </div>
+                    <h6 class="card-title pb-3">Café Tipo 2</h6>
+                    <p class="text-card align-center">Nuestra selección especial de café ideal
+                        $700.00</p>
+                </div>
+                <div class="row justify-content-center">
+                    <button class="btnAdd btn-success mt-2 w-50" href="#">Añadir al carrito</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <div class="row-item">
+                    <div class="card-img pb-3 align-center">
+                        <img style='width:250px;' src="assets/foto_producto_! 1.png" alt="Muestra cafe">
+                    </div>
+                    <h6 class="card-title pb-3">Café Tipo 2</h6>
+                    <p class="text-card align-center">Nuestra selección especial de café ideal
+                        $700.00</p>
+                </div>
+                <div class="row justify-content-center">
+                    <button class="btnAdd btn-success mt-2 w-50" href="#">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="row-item">
+                    <div class="card-img pb-3 align-center">
+                        <img style='width:250px;' src="assets/foto_producto_! 1.png" alt="Muestra cafe">
+                    </div>
+                    <h6 class="card-title pb-3">Café Tipo 2</h6>
+                    <p class="text-card">Nuestra selección especial de café ideal
+                        <br>
+                        $700.00
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <button class="btnAdd btn-success  w-50" href="#">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section> <!-- Producto muestra -->
+
+
+    <!-- Titulo 2 -- -->
+    <div class="title2 py-5">
+        <div align="center">
+            <span id="title2">Últimas noticias</span>
+        </div>
+    </div>
+    <!-- <section>
+        <div class="container text-center">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-4">
+                    <img style='width:250px;' src="assets/foto_producto_! 1.png" alt=''>
+                    <h5>Cafe tipo 2</h5>
+                    <p>Nuestra seleccion especial de cafe ideal</p>
+                    <p>$700.00</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- Contenedor centrado con imagen blog -->
+
+    <!-- div class="container-Blog">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="row-item">
+                    <div class="card-img pb-3 align-center">
+                        <img style='width:250px;' src="assets/Blog Entry img.png" alt="Muestra cafe">
+                    </div>
+
+                    <p class="text-card align-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam
+                        necessitatibus non quidem, consectetur</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/Blog Entry img.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <footer class="bg-chocolate text-center p-5">
+        <h5 class="text-light">Síguenos en nuestras Redes Sociales</h5>
+        <div class="container">
+            <a class="col-2" href="">
+                <img class="img-fluid" src="https://i.ibb.co/R0z99L4/facebook-icon.png" alt="Facebook"
+                    style="width: 80px;">
+            </a>
+            <a class="col-2" href="">
+                <img class="img-fluid" src="https://i.ibb.co/rpkRmNh/instagram-icon.png" alt="Instagram"
+                    style="width: 80px;">
+            </a>
+            <a class="col-2" href="">
+                <img class="img-fluid" src="https://i.ibb.co/1d0pgHX/twitter-icon.png" alt="Twitter"
+                    style="width: 80px;">
+            </a>
+        </div>
+        <div class="row">
+            <nav class="nav justify-content-center p-1">
+                <a class="nav-link text-light">Nosotros</a>
+                <a class="nav-link text-light">Contacto</a>
+                <a class="nav-link text-light">Productos</a>
+            </nav>
+        </div>
+        <p class="text-light mt-2">Todos los derechos reservados, Guidani Café Orgánico 2022</p>
+        <p class="text-light">Aceptamos</p>
+        <div class="container">
+            <a class="col-1" href="">
+                <img class="img-fluid" src="https://i.ibb.co/w4F8L49/visa-1.png" alt="Visa" style="width: 80px;">
+            </a>
+            <a class="col-1" href="">
+                <img class="img-fluid" src="https://i.ibb.co/1MK0Gmc/paypal-icon-1.png" alt="PayPal"
+                    style="width: 80px;">
+            </a>
+            <a class="col-1" href="">
+                <img class="img-fluid" src="https://i.ibb.co/ySsPKMv/applepay-1.png" alt="ApplePay"
+                    style="width: 80px;">
+            </a>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
